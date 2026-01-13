@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="400" fill="url(#grad2)"/>
+  
+  <!-- Silicon wafers bundle -->
+  <g transform="translate(150, 80)">
+    <!-- Stack of wafers -->
+    <rect x="0" y="20" width="200" height="30" fill="#e67e22" rx="5"/>
+    <rect x="0" y="35" width="200" height="30" fill="#d68910" rx="5"/>
+    <rect x="0" y="50" width="200" height="30" fill="#ba4a00" rx="5"/>
+    <rect x="0" y="65" width="200" height="30" fill="#a04000" rx="5"/>
+    <rect x="0" y="80" width="200" height="30" fill="#923600" rx="5"/>
+    
+    <!-- Highlights -->
+    <ellipse cx="100" cy="35" rx="90" ry="8" fill="#fff" opacity="0.2"/>
+    <ellipse cx="100" cy="75" rx="90" ry="8" fill="#fff" opacity="0.15"/>
+  </g>
+  
+  <!-- Silicon crystal structure visualization -->
+  <g transform="translate(320, 120)" opacity="0.7">
+    <circle cx="50" cy="50" r="15" fill="#e67e22"/>
+    <circle cx="100" cy="50" r="15" fill="#e67e22"/>
+    <circle cx="150" cy="50" r="15" fill="#e67e22"/>
+    <circle cx="75" cy="100" r="15" fill="#e67e22"/>
+    <circle cx="125" cy="100" r="15" fill="#e67e22"/>
+    
+    <!-- Connecting lines -->
+    <line x1="50" y1="50" x2="100" y2="50" stroke="#fff" stroke-width="2"/>
+    <line x1="100" y1="50" x2="150" y2="50" stroke="#fff" stroke-width="2"/>
+    <line x1="50" y1="50" x2="75" y2="100" stroke="#fff" stroke-width="2"/>
+    <line x1="100" y1="50" x2="75" y2="100" stroke="#fff" stroke-width="2"/>
+    <line x1="100" y1="50" x2="125" y2="100" stroke="#fff" stroke-width="2"/>
+    <line x1="150" y1="50" x2="125" y2="100" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="300" y="300" font-size="36" font-weight="bold" fill="#fff" text-anchor="middle" font-family="Arial">
+    Silicon Bundle
+  </text>
+  <text x="300" y="340" font-size="20" fill="#ecf0f1" text-anchor="middle" font-family="Arial">
+    High-Purity Silicon Components
+  </text>
+</svg>

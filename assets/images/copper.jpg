@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="copper" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d68910;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="600" height="400" fill="url(#grad3)"/>
+  
+  <!-- Copper wire coil -->
+  <g transform="translate(150, 80)">
+    <!-- Outer coil -->
+    <circle cx="100" cy="80" r="80" fill="none" stroke="url(#copper)" stroke-width="12"/>
+    <circle cx="100" cy="80" r="65" fill="none" stroke="url(#copper)" stroke-width="12"/>
+    <circle cx="100" cy="80" r="50" fill="none" stroke="url(#copper)" stroke-width="12"/>
+    
+    <!-- Center -->
+    <circle cx="100" cy="80" r="25" fill="#f39c12" opacity="0.8"/>
+    
+    <!-- Highlights -->
+    <ellipse cx="85" cy="60" rx="30" ry="20" fill="#fff" opacity="0.2"/>
+  </g>
+  
+  <!-- Copper bars -->
+  <g transform="translate(320, 100)">
+    <!-- Stack of bars -->
+    <rect x="0" y="0" width="150" height="25" fill="url(#copper)" rx="3"/>
+    <rect x="0" y="35" width="150" height="25" fill="#f39c12" rx="3"/>
+    <rect x="0" y="70" width="150" height="25" fill="#d68910" rx="3"/>
+    <rect x="0" y="105" width="150" height="25" fill="#ba4a00" rx="3"/>
+    
+    <!-- Shine effect -->
+    <rect x="10" y="5" width="30" height="15" fill="#fff" opacity="0.25" rx="2"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="300" y="300" font-size="36" font-weight="bold" fill="#fff" text-anchor="middle" font-family="Arial">
+    Copper Materials
+  </text>
+  <text x="300" y="340" font-size="20" fill="#ecf0f1" text-anchor="middle" font-family="Arial">
+    Pure & Alloy Copper Products
+  </text>
+</svg>
